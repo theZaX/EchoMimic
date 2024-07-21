@@ -16,3 +16,4 @@ opencv-python
 av==11.0.0
 gradio
 accelerate
+scikit-image
