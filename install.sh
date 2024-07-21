@@ -4,10 +4,12 @@
 pip install -r requirements.txt
 
 # Install libgl1-mesa-glx
-sudo apt-get update && sudo apt-get install -y libgl1-mesa-glx
+apt-get update && apt-get install -y libgl1-mesa-glx
+
+apt-get install ffmpeg -y
 
 # Install git-lfs
-sudo apt-get update && sudo apt-get install -y git-lfs
+apt-get update && apt-get install -y git-lfs
 
 # Initialize git-lfs
 git lfs install
